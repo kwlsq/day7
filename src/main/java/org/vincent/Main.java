@@ -8,7 +8,6 @@ public class Main {
         Scanner scanner = UserInput.scanner();
 
         List<Integer> numbersEntered = UserInput.numbersEntered();
-        System.out.println(numbersEntered);
         System.out.println(NumberUtils.calculateAverage(numbersEntered));
 
         scanner.close();
